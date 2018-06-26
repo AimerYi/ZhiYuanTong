@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">志愿通</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name = "list">   /数组资源名称为list 与layout中对应
+        <item>1.点击开始评测，进入高考专业兴趣分析系统。</item>
+        <item>2.请根据对每一题目的第一印象作答，答案没有好坏、对错之分。</item>
+        <item>3.根据自己的实际情况回答“是”或“否”。</item>
+        <item>4.您的测评结果可以从历史记录中查看。</item>
+    </string-array>
+    <string name="activity_my_task_post">我的历史记录</string>
+    <string name="task_0">历史记录1</string>
+    <string name="task_1">历史记录2</string>
+    <string name="loading_failed">加载数据失败</string>
+    <string name="no_result">这里是空的哦！</string>
+    <string name="loading_retry">重新加载</string>
+    <string name="task_2">历史记录3</string>
+    <string name="bomb_application_id" translatable="false">2cf70410127aa478646d044b78064b66</string>
+    <string name="login_success">登入成功!</string>
+    <string name="login_failed">登入失败!请输入正确的邮箱及密码</string>
+    <string name="login_not_match_email">请输入可用的邮箱地址</string>
+    <string name="login_not_match_password">请输入一个大于6位数的密码</string>
+    <string name="signup_password_not_match">密码不匹配</string>
+    <string name="signup_phonenumber_not_match">请填写正确的电话号码</string>
+    <string name="no_account">还没账号？马上创建</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_exists">User already logged in</string>
+    <string name="logout_text">退出</string>
+    <string name="SIGN_UP">现在注册</string>
+    <string name="SIGN_IN">登陆</string>
+    <string name="confirm">创建用户</string>
+    <string name="already_have_account">已经有账户了？马上登陆</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="phone_number">手机号码</string>
+    <string name="nemalength">请输入至少3个字符</string>
+    <string name="name">用户名</string>
+    <string name="history">我的历史记录</string>
+</resources>

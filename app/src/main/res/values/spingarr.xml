@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>浙江</item>
+    </string-array>
+    <string-array name="spingarr2">
+        <item>分数</item>
+        <item>次位号</item>
+    </string-array>
+    <string-array name="spingarr3">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/text3"
+        android:textSize="16sp"
+        android:text="操作说明："/>
+
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/list"
+
+        >
+
+    </ListView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:id="@+id/bt2"
+            android:textSize="16sp"
+            android:background="@drawable/buttonstyle2"
+            android:text="开始测评"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/bt3"
+            android:textSize="16sp"
+            android:background="@drawable/buttonstyle"
+            android:text="返回"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@mipmap/pic_guidepage_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp">
+    </LinearLayout>
+    <Button
+        android:id="@+id/link_ZC"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:textColor="#E8E8E8"
+        android:background="@drawable/buttonstyle"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/link_DL"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstyle2"
+        android:text="登陆"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+
+        />
+</LinearLayout>
